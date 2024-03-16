@@ -1,1 +1,1 @@
-The Project can be found at : https://github.com/elisabeth-slm/resume/
+The Project can be found at : https://elisabeth-slm.github.io/resume/
