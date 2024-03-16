@@ -1,0 +1,126 @@
+body{
+    background: linear-gradient(to right, rgb(37, 1, 5), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    background: linear-gradient(to right, rgb(180, 173, 173), rgb(214, 215, 215));
+    background-clip: text;
+    color: transparent;
+}
+h2{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(246, 241, 241), rgb(231, 243, 243));
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+h3{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(207, 200, 200), rgb(236, 248, 248));
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+.conteneur{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    min-height: 150vh;
+}
+
+.wrapper-photo{
+    max-width: 200px;
+    border-radius: 1%;
+    background: rgb(36, 36, 36);
+    position:fixed;
+    padding: 20px;
+    top: 38px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink:inherit ;
+    height:150vh;
+    text-align: left;
+}
+.section-gauche{
+    align-self: stretch;
+}
+.photo img{
+    width: 120px;
+    border-radius: 25%;
+}
+
+.photo figcaption{
+    background: linear-gradient(to right, rgb(128, 126, 126), rgb(232, 213, 207));
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.section-cv{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex: 1 1 200px;
+    align-self:stretch;
+}
+
+.section h2{
+    margin-bottom: 10px;
+}
+
+header{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(45, 44, 44);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+header h1{
+    margin:0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, rgb(194, 193, 193), rgb(255, 255, 255));
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.section-cv p::before{
+    content:"";
+    display: inline-block;
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(164, 162, 162);
+    margin-right: 10px;
+}
+
+
+.material-symbols-outlined {
+  color: rgb(120, 120, 113);
+  size:10px;
+}
